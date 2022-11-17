@@ -13,7 +13,8 @@ header{
     height: 150px;
     background-color: #141a1a;
     background-image: url("images/bowl.jpg");
-    align-content: center;
+    background-position: right;
+    background-repeat: no-repeat;
     color: white;
     margin: 0 auto;
 }
@@ -39,7 +40,6 @@ h1{
 
 #grid-container{
     width: 1000px;
-    
     background-color: #fdfdfd;
     display: grid;
     grid-template-columns: 184px 1fr;
